@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.icone{
+    background-size: 2em;
+    background-repeat: no-repeat;
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    margin-right: 0.25em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 10px 10px white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
