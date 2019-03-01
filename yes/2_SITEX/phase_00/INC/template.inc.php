@@ -17,6 +17,8 @@
         <link rel="stylesheet" href="CSS/normalize.min.css">
         <link rel="stylesheet" href="CSS/main.css">
         <link rel="stylesheet" href="CSS/custom.css">
+        <link rel="stylesheet" href="CSS/mediaQueries.css">
+
 
 
         <script src="/All/mo/modernizr.min.js"></script>
