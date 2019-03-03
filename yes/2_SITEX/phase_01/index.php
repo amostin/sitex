@@ -6,6 +6,8 @@
  * Time: 23:08
  */
 
+//include("JS/test.js");
+
 include("INC/custom.lib.php");
 
 $infos = getInfos("SITEX", 00);

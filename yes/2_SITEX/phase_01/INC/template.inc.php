@@ -24,7 +24,7 @@ $metaNames = array(
     "viewport" => "width=device-width, initial-scale=1"
 );
 
-$source = array("/All/mo/modernizr.min.js", "/All/jQ/jquery.min.js", "JS/main.js");
+$source = array("/All/mo/modernizr.min.js", "/All/jQ/jquery.min.js", "JS/main.js", "JS/test.js" );
 
 ?>
 
