@@ -123,7 +123,7 @@ function sortAssociativeArray(data) {
 
 function makeTable_v1(data) {
     if($.isEmptyObject(data)){
-        console.log('%c--- NO DATA --- in makeTable_v1()','color:darkred');
+        console.log('%c --- NO DATA --- in makeTable_v1()','color:darkred');
         return '';
     }
     else{
@@ -269,14 +269,54 @@ function testGet($request){
         }
     );
 }
+
 $(document).ready(function(){
     $("p").click(function(){
         $(this).hide();
     });
 });
- */
 
+$(document).ready(function(){
+    $("a").click(function(event){
+        makeRequest(event);
+    });
+});
 
 function yolo(){console.log("yolo");}
 
+    request.substring(51, request.indexOf('.'));
+    request.split('\\').pop().split('/').pop();
+    request.replace(/^.*(\\|\/|\:)/, '');
 
+    request.toString();
+    request.split('\\');
+    request.pop();
+    request.split('/');
+    request.pop();
+
+
+
+
+$(document).ready(function(){
+    $("a").click(function(event){
+        makeRequest(event);
+    });
+});
+function makeRequest(event){
+    event.preventDefault();
+    //event.stopImmediatePropagation();
+    //console.log(event.type, event.target);
+    var request = event.target.href;
+    request = request.substring(51, request.lastIndexOf('.'))
+    console.log(request);
+    //testGet(request);
+    var data2send = {'request':request};
+    //console.log(data2send);
+    $.post('/RES/appelAjax.php?rq=' + request,data2send, function(data){playActions(data)});
+}
+
+function playActions(data) {
+    //alert('yi');
+    console.log(data);
+}
+*/

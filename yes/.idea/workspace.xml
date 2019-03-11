@@ -2,19 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d3dbef-cbfd-4fda-a3b6-3dd4e9f717c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/dbConnect.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p01b1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p01b2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p01b3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p01b4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p01b5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p02a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p02b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p03a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p04a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p99.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/Request.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_TP/TP_03/sem03p01a.php" beforeDir="false" afterPath="$PROJECT_DIR$/1_TP/TP_03/sem03p01a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/CSS/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/CSS/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/CSS/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/CSS/mediaQueries.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/CSS/mediaQueries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/CSS/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/CSS/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/CSS/normalize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/CSS/normalize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/IMG/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/IMG/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/IMG/template.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/IMG/template.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/IMG/tile-wide.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/IMG/tile-wide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/IMG/tile.png" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/IMG/tile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/INC/custom.lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/custom.lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/INC/dbConnect.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/dbConnect.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/INC/template.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/template.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/JS/jquery-1.11.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/JS/jquery-1.11.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/JS/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/JS/modernizr-2.8.3-respond-1.4.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/JS/modernizr-2.8.3-respond-1.4.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/JS/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/JS/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/favico.ico" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/favico.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/phpinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/phpinfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/web.config" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,47 +33,84 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p99.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#188#2424#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_03/dbConnect.inc.php">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/custom.lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="1377">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_03/mesFonctions.inc.php">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/JS/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+            <state relative-caret-position="1785">
+              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;649af0a4-643b-4f0f-b1ee-147947e236f0&gt;/1_TP/TP_02/MySQL Completion.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/JS/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1020" />
+            <state relative-caret-position="408">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p04a.php">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="323">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/CSS/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/template.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1989">
+              <caret line="117" column="30" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -80,6 +128,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>myprint_r</find>
+      <find>forEach</find>
     </findStrings>
     <replaceStrings>
       <replace>monprint_r</replace>
@@ -91,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2_SITEX/phase_01/CSS/custom.css" />
         <option value="&lt;649af0a4-643b-4f0f-b1ee-147947e236f0&gt;/2_SITEX/phase_01/CSS/custom.css" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_00/CSS/mediaQueries.css" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_00/CSS/main.css" />
@@ -115,7 +163,6 @@
         <option value="$PROJECT_DIR$/2_SITEX/phase_01/phpinfo.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_01/INC/template.inc.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_001/phase_01/JS/testBis3.js" />
-        <option value="$PROJECT_DIR$/2_SITEX/phase_01/JS/test.js" />
         <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p01a.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p01b.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p01c.php" />
@@ -134,17 +181,26 @@
         <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p04a.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_03/mesFonctions.inc.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p99.php" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/INC/custom.lib.php" />
+        <option value="&lt;649af0a4-643b-4f0f-b1ee-147947e236f0&gt;/2_SITEX/phase_01b/JS/test.js" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/test.php" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01/JS/test.js" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/JS/test.js" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/INC/template.inc.php" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/CSS/custom.css" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/JS/main.js" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/INC/Request.php" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,13 +221,27 @@
             <path>
               <item name="yes" type="b2602c69:ProjectViewProjectNode" />
               <item name="yes" type="462c0819:PsiDirectoryNode" />
-              <item name="1_TP" type="462c0819:PsiDirectoryNode" />
+              <item name="2_SITEX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yes" type="b2602c69:ProjectViewProjectNode" />
               <item name="yes" type="462c0819:PsiDirectoryNode" />
-              <item name="1_TP" type="462c0819:PsiDirectoryNode" />
-              <item name="TP_03" type="462c0819:PsiDirectoryNode" />
+              <item name="2_SITEX" type="462c0819:PsiDirectoryNode" />
+              <item name="phase_01b" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yes" type="462c0819:PsiDirectoryNode" />
+              <item name="2_SITEX" type="462c0819:PsiDirectoryNode" />
+              <item name="phase_01b" type="462c0819:PsiDirectoryNode" />
+              <item name="INC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yes" type="462c0819:PsiDirectoryNode" />
+              <item name="2_SITEX" type="462c0819:PsiDirectoryNode" />
+              <item name="phase_01b" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,6 +264,9 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/1_TP/TP_03/sem03p99.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2tiDevWeb\SITEX\yes\2_SITEX\phase_01b" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2tiDevWeb\SITEX\yes\1_TP\TP_03" />
       <recent name="D:\2tiDevWeb\SITEX\yes\2_SITEX\phase_01" />
@@ -236,18 +309,24 @@
       <workItem from="1551523670736" duration="768000" />
       <workItem from="1551524553987" duration="7570000" />
       <workItem from="1551635099532" duration="3478000" />
-      <workItem from="1551704833428" duration="16605000" />
+      <workItem from="1551704833428" duration="17127000" />
+      <workItem from="1552133062777" duration="4673000" />
+      <workItem from="1552139807978" duration="129000" />
+      <workItem from="1552140126517" duration="359000" />
+      <workItem from="1552140731260" duration="8614000" />
+      <workItem from="1552211410321" duration="29294000" />
+      <workItem from="1552314401382" duration="1252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72785000" />
+    <option name="totallyTimeSpent" value="117628000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119463086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,9 +338,33 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.118120804" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26074895" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -269,15 +372,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.118120804" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/CSS/normalize.css" />
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/CSS/normalize.min.css" />
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/CSS/custom.css" />
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/CSS/normalize.css" />
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/CSS/normalize.min.css" />
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_00/CSS/mediaQueries.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3451">
@@ -300,7 +402,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/index.php" />
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/CSS/main.css">
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/CSS/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
@@ -356,57 +458,18 @@
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_00/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/INC/dbConnect.inc.php">
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/dbConnect.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/INC/custom.lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_001/phase_01/INC/template.inc.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/JS/jquery-1.11.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_001/phase_01/JS/main.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/JS/modernizr-2.8.3-respond-1.4.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_001/phase_01/JS/testBis3.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -415,37 +478,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/JS/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="155" column="10" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_001/phase_01/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/INC/template.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01b.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01b.php" />
     <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01b1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -453,20 +489,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01c.php" />
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01d.php" />
     <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01b3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -481,13 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01e.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01e.php" />
     <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01b4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -495,13 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01f.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01f.php" />
     <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01b5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -530,20 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p04a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/dbConnect.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p01a.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -558,10 +556,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/dbConnect.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_03/mesFonctions.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_03/sem03p04a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/JS/modernizr-2.8.3-respond-1.4.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#5#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/JS/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01/JS/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/custom.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/JS/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/CSS/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/template.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="30" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/JS/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#188#2424#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
