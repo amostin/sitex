@@ -37,7 +37,7 @@ function getInfos($shortName, $version, $fileName = "dbconnect.inc.php"){
 
 
     /**
-     * @var const ___MATRICULE___
+     *
      * @var string 	$__INFOS__ = array(   'matricule'=> ___MATRICULE___
     *,'host' => 'localhost'
     *,'user' => 'MOSTIN'

@@ -1,7 +1,7 @@
 <?php
 function footerContent($infos){
 
-    $html = "<a id=\"mail\" href=\"mailto:".$infos['mail'] ."\"" . " >" . $infos['pNom'] . "- <span id=\"groupeEphec\">" . $infos['groupe'] . "</span> - @ 20".substr($infos['anacad'], 2, 2)."</a>";
+    $html = "<a id=\"mail\" href=\"mailto:".$infos['mail'] ."\">" . $infos['pNom'] . "</a> <span id=\"groupeEphec\">-" . $infos['groupe'] . "</span> <span>- @ 20".substr($infos['anacad'], 2, 2)."</span>";
     return $html;
 }
 
@@ -68,6 +68,24 @@ function monPrint_r($tab) {
     return '<pre>' . print_r($tab, true) . '</pre>';
 }
 
+function testClass($class){
+    if (!class_exists($class, false)) {
+        trigger_error("Impossible de charger la classe : $class", E_USER_WARNING);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 //echo monPrint_r(getInfos("SITEX", 00));
 
 /*
@@ -82,4 +100,3 @@ $(document).ready(function(){
 
 
 
-?>

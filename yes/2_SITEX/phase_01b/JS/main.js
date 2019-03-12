@@ -11,9 +11,6 @@ $(function() {
 
 $(document).ready(function(){
 /*
-    //makeEvent();
-
-
     $("a[href!='logOn.php']").click(function(event){
         makeRequest(event);
     });
@@ -24,11 +21,21 @@ $(document).ready(function(){
 
         makeEvent("a");
     makeEvent("a:active");
+    makeEvent("aside ul li");
+
+
+       if (!($("a:active"))){
+        console.log("ok");
+       }
+       else {
+           console.log("ko");
+       }
 */
 
     makeEvent("li:first");
     makeEvent("a[href='works.php']");
-    makeEvent("li:last");
+    makeEvent("header nav ul li:last");
+
 
 
     $("#error").dblclick(function(){
@@ -36,6 +43,17 @@ $(document).ready(function(){
     })
 
 });
+
+function makeEvent(place = 'html') {
+    if(place == "a[href*='mailto']"){
+        console.log("no");
+    }
+    else {
+        $(place).click(function(event){
+            makeRequest(event);
+        });
+    }
+}
 
 function makeRequest(event){
     event.preventDefault();
@@ -63,10 +81,10 @@ function playActions(retour) {
                     $("article").html(actionDatas);
                     break;
                 case 'testLogOn':
-                    $("li:last").html(actionDatas);
+                    $("header nav ul li:last").html(actionDatas); //met des id au pire c'est surement mieux
                     break;
                 case 'testLogOff':
-                    $("li:last").html(actionDatas);
+                    $("header nav ul li:last").html(actionDatas);
                     break;
                 case 'jsonError_':
                     $("#error").removeAttr("hidden");
@@ -100,14 +118,7 @@ function parseJson(json){
     return parsed;
 }
 
-function makeEvent(place = 'html') {
-    if(place == "a[href*='mailto']"){console.log("no")}
-    else {
-        $(place).click(function(event){
-            makeRequest(event);
-        });
-    }
-}
+
 
 
 /*

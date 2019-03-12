@@ -12,7 +12,27 @@ include("INC/custom.lib.php");
 
 $infos = getInfos("SITEX", 00);
 
-include_once "INC/Request.php";
+include_once "INC/Request.inc.php";
+include_once "INC/Debug.inc.php";
+
+testClass("Request");
+testClass("Debug");
+
+
+
+$uneRequete = new Request();
+
+if(!($uneRequete->getRq() == null)){
+    //echo $uneRequete->getRq();
+    $uneRequete->send();
+    die();
+}
+else {
+    //var_dump($uneRequete);
+    unset($uneRequete);
+    //var_dump($uneRequete);
+}
+
 
 $param = array(   "titleText"=> $infos['shortName']
     ,"mainContent" => "<header>
@@ -49,4 +69,46 @@ include("INC/template.inc.php");
 
 // echo monPrint_r($infos);
 /*
+if($_GET["rq"] != null){
+    echo $_GET["rq"];
+    die();
+}
+else unset($_GET["null"]);
+
+
+$uneRequete = new Request();
+
+if($uneRequete->getRq() != null){
+    echo $uneRequete->getRq();
+    die();
+}
+else {
+    //echo $uneRequete->getRq();
+    var_dump($uneRequete);
+    unset($uneRequete);
+}
+
+var_dump(get_class_vars('Debug'));
+
+$unBug = new Debug();
+$unBug->setDebug("");
+
+var_dump(get_class_vars('Debug'));
+
+
+$uneRequete = new Request();
+
+if($uneRequete->send() != null){
+    echo $uneRequete->send();
+    die();
+}
+else {
+    //echo $uneRequete->getRq();
+    var_dump($uneRequete);
+    unset($uneRequete);
+}
+
+$iReq = new Request();
+$iReq->getRq();
+
 */
