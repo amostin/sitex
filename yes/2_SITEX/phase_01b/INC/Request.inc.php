@@ -58,10 +58,18 @@ class Request
     }
 
     public function send(){
-        //echo "ooo";
-        //var_dump($this->iDebug);
-        //$this->iDebug->send();
-        $this->iAction->send();
+//echo "ooo";
+//var_dump($this->iDebug);
+//$this->iDebug->send();
+        //$jeNexistePas++;
+        $phpError = error_get_last();
+//var_dump($phpError);
+
+        if($phpError){
+//echo "yo";
+            $this->iAction->add("phpError", $phpError);
+        }
+        return $this->iAction->send();
     }
 
     /**
