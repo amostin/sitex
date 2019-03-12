@@ -8,17 +8,21 @@
 
 //include("custom.lib.php");
 include_once ('Debug.inc.php');
+include_once ('Action.inc.php');
 testClass("Debug");
+testClass("Action");
 
 class Request
 {
     private $rq = null;
     private $iDebug = null;
     private $rqList = ["test", "retest"];
+    private $iAction = null;
 
     public function __construct()
     {
         $this->iDebug = new Debug();
+        $this->iAction = new Action($this->iDebug);
 
         if (isset($_GET["rq"])) $this->rq = $_GET["rq"];
         else $this->rq = null;
@@ -27,23 +31,8 @@ class Request
         $this->iDebug->addMsg("Requête reçue : " . $this->rq);
 
         if($this->isValid($this->rq)){
+
             $this->iDebug->addMsg("Requête valide");
-            /*
-            $this->test();
-            var_dump($this->rq);
-            echo $this->rq . "();";
-            $func = $this->$this->rq;
-            $func();
-            echo $this->{$this->rq};
-            $func = $this->{$this->rq};
-            $func();
-
-            $func = $this->rq;
-            $this->{$func()}; error
-
-                        $ceci = "$this->";
-            var_dump($ceci);   fatalerror object cannot be convert to string
-*/
 
             $func = $this->rq;
             $this->$func();
@@ -71,7 +60,8 @@ class Request
     public function send(){
         //echo "ooo";
         //var_dump($this->iDebug);
-        $this->iDebug->send();
+        //$this->iDebug->send();
+        $this->iAction->send();
     }
 
     /**
@@ -91,3 +81,21 @@ class Request
         $this->rq = $rq;
     }
 }
+
+
+/*
+ $this->test();
+ var_dump($this->rq);
+ echo $this->rq . "();";
+ $func = $this->$this->rq;
+ $func();
+ echo $this->{$this->rq};
+ $func = $this->{$this->rq};
+ $func();
+
+ $func = $this->rq;
+ $this->{$func()}; error
+
+             $ceci = "$this->";
+ var_dump($ceci);   fatalerror object cannot be convert to string
+*/

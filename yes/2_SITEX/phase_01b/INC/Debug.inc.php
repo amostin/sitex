@@ -53,10 +53,17 @@ class Debug
     }
 
     public function send(){
-        //echo "iiii";
-        //echo var_dump($this->msgList);
-        echo $this->mPr($this->msgList);
+//echo "iiii";
+//echo var_dump($this->msgList);
+//echo $this->mPr($this->msgList);
+        return $this->mPr($this->msgList);
+    }
+
+    public function debug(){
+
     }
 }
+
+
 
 //var_dump(get_class_vars('Debug'));
