@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72d3dbef-cbfd-4fda-a3b6-3dd4e9f717c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/Action.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/Debug.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/Debug.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/Request.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b/INC/Request.inc.php" afterDir="false" />
-    </list>
+    <list default="true" id="72d3dbef-cbfd-4fda-a3b6-3dd4e9f717c9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,12 +260,12 @@
       <workItem from="1552140126517" duration="359000" />
       <workItem from="1552140731260" duration="8614000" />
       <workItem from="1552211410321" duration="29294000" />
-      <workItem from="1552314401382" duration="43868000" />
+      <workItem from="1552314401382" duration="43966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160244000" />
+    <option name="totallyTimeSpent" value="160342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
@@ -296,7 +291,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.24410541" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.24410541" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
