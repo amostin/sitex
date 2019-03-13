@@ -1,0 +1,40 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.ico{
+    background-size: 2em;
+    height: 2em;
+    width: 2em;
+    background: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 0.25em;
+    box-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.75);
+}
+
+div#error{
+    border: double;
+    background-color: rgba(100, 75, 50, 0.25);
+    margin:1em;
+    padding: 0.5em;
+}
+
+div#error dt{
+    border: dotted 1px;
+    margin:0.5em;
+    padding: 0.25em;
+}
+
+
+
+
+
+
+
+
+
+
+
