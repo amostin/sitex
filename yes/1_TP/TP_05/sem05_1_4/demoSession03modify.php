@@ -23,6 +23,8 @@ if(isset($_SESSION["startTime"])){
     $_SESSION["lastVisit"]["modify"] = date("Y D d H\hi's\"");
 }
 $_SESSION["favcolor"] = "yellow";
+$_SESSION["name"] = "ambroise";
+
 ?>
 
 <pre><?php print_r($_SESSION); ?></pre>

@@ -1,0 +1,28 @@
+$('div #accordion').hide();
+
+$('div .themeroller__demo-area').hide();
+
+$('header').hide();
+
+$('nav').hide();
+
+$('h2').hide();
+$('img').hide();
+
+$('footer').hide();
+
+$('div#themeHeader').hide();
+$('h1.entry-title').hide();
+
+$('div#logo-events').hide();
+
+$('ul#rollerTabsNav').hide();
+
+$('a#downloadTheme').hide();
+
+$('div#demo-options').hide();
+
+$('hr').hide();
+$("div").removeClass("clearfix row");
+$('#content-wrapper').removeAttr('id');
+

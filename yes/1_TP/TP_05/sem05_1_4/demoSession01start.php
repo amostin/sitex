@@ -31,6 +31,8 @@ $_SESSION["lastVisit"]["start"] = date("Y D d H\hi's\"");
 
 $_SESSION["favcolor"] = "green";
 $_SESSION["favanimal"] = "cat";
+$_SESSION["name"] = "ambroise";
+
 
 echo "Session variables are set.";
 ?>

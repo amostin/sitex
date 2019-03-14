@@ -28,6 +28,8 @@ if(isset($_SESSION["startTime"])){
 }
 echo "Favorite color is " . $_SESSION["favcolor"] . ".<br>";
 echo "Favorite animal is " . $_SESSION["favanimal"] . ".";
+$_SESSION["name"] = "ambroise";
+
 ?>
 
 </body>

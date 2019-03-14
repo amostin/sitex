@@ -19,6 +19,7 @@ session_start();
 if(isset($_SESSION["startTime"])){
     $_SESSION["lastVisit"]["print_r"] = date("Y D d H\hi's\"");
 }
+
 ?>
 <pre><?php print_r($_SESSION); ?></pre>
 

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d3dbef-cbfd-4fda-a3b6-3dd4e9f717c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession01start.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession03modify.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession04destroy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/menu.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_TP/TP_05/prepa.sem05.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession01start.php" beforeDir="false" afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession01start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php" beforeDir="false" afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php" beforeDir="false" afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession03modify.php" beforeDir="false" afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession03modify.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession01start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="471">
+              <caret line="33" column="25" selection-start-line="33" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -46,26 +41,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession03modify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="357">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -158,15 +153,15 @@
         <option value="$PROJECT_DIR$/1_TP/TP_05/prepa.sem05/demoSession02get02.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession01start.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php" />
-        <option value="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession03modify.php" />
+        <option value="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -309,16 +304,15 @@
       <workItem from="1552140731260" duration="8614000" />
       <workItem from="1552211410321" duration="29294000" />
       <workItem from="1552314401382" duration="53698000" />
-      <workItem from="1552458890714" duration="13491000" />
+      <workItem from="1552458890714" duration="14507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183565000" />
+    <option name="totallyTimeSpent" value="184581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17114094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -627,29 +621,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession01start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="471">
+          <caret line="33" column="25" selection-start-line="33" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession03modify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="357">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
