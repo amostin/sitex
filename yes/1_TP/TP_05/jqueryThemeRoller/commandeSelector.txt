@@ -1,3 +1,7 @@
+
+http://jqueryui.com/themeroller/#!zThemeParams=5d00000100d605000000000000003d8888d844329a8dfe02723de3e5700bbb34ecf36cdef1e1654faa0015427bdb9eb45ebe89aaede0ec5f0d92417fcc6551ce804ff46bf1670008481a124e0b11063618ea8fd5606c78b319f4bfd67804371bc364bc6477d13c8446ac97b972bd784794ff04393bc834ef274360784958de5f1723dce9fd66f4b904b0d9080f32f16c5723d7bad817521b556990ea8dcb393a51dd00cd4d4092de884a7d5934a50a964f27ca398d242f617c656b1c3f9d3b48a1b62e8dc27739639513a3dce12a0cb0acb715f2182849ad573dabb7c562a7c1f39c94c40f835429702c83be9faa4a26edc89f940e2d805bf27b47f072eba6e8897b7e3dfc329c5ea5859f65b7d37110ccf8d255d6f53cf87c6a157be34eafef23bab8245a19275596c9e10bb816a770f73836bf8d91bbfc6f21f7105a92f48c941b94c210dc731a44ad9d08f176ecd83b198eef232b0345abd413e873dfa2aec514e23a50edc19417b33ebe314e16ca15bfd0f516117a736969bd4df0608886da735a919dbdff45a175a28a453fea3ba281c2c01d5ac4c1d76b5fa2b1eeae233dbad1685a05b78636ea614c6fce5883cf25eb9d37fc6fc6c318fc0d05f6ef2deb22ccd529a142419ed8b68c2323b3ecc3ff92b0ff48
+
+
 $('div #accordion').hide();
 
 $('div .themeroller__demo-area').hide();
@@ -23,6 +27,19 @@ $('a#downloadTheme').hide();
 $('div#demo-options').hide();
 
 $('hr').hide();
-$("div").removeClass("clearfix row");
+$("#container").removeAttr("id");
+
 $('#content-wrapper').removeAttr('id');
 
+
+
+
+
+$( "div.application" ).css( "width", "+=200" );
+
+$( "div.theme-group" ).css( "width", "+=200" );
+
+
+//$("div").removeClass("clearfix row");
+
+$('#themeroller').css('display', 'inline');
