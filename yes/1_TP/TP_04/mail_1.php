@@ -18,4 +18,4 @@ Voici mon mail « structuré ».
 
 BàT.man';
 
-if (mail($to, $subject, $message, $from)) echo "Sending success !";
+if (mail($to, $subject, $message, $from)) echo "le mail a bien été envoyé";
