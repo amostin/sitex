@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d3dbef-cbfd-4fda-a3b6-3dd4e9f717c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_04/JS/up_form_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_04/up_form_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_04/up_form_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_04/upload_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_TP/TP_04/up_form_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_TP/TP_04/upload_4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,29 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_TP/TP_04/up_form_4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_04/up_form_3.html">
+        <entry file="file://$PROJECT_DIR$/1_TP/TP_04/upload_4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_04/JS/up_form_3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_TP/TP_04/upload_2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="106">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -63,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -106,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p02a.php" />
-        <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p02b.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p03a.php" />
         <option value="&lt;649af0a4-643b-4f0f-b1ee-147947e236f0&gt;/1_TP/TP_03/sem03p04a.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_03/sem03p04a.php" />
@@ -157,6 +144,8 @@
         <option value="$PROJECT_DIR$/1_TP/TP_04/JS/up_form_3.js" />
         <option value="$PROJECT_DIR$/1_TP/TP_04/upload_2.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_04/up_form_3.html" />
+        <option value="$PROJECT_DIR$/1_TP/TP_04/up_form_4.html" />
+        <option value="$PROJECT_DIR$/1_TP/TP_04/upload_4.php" />
       </list>
     </option>
   </component>
@@ -296,12 +285,12 @@
       <workItem from="1552211410321" duration="29294000" />
       <workItem from="1552314401382" duration="53698000" />
       <workItem from="1552458890714" duration="14507000" />
-      <workItem from="1552729733319" duration="17113000" />
+      <workItem from="1552729733319" duration="18297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201694000" />
+    <option name="totallyTimeSpent" value="202878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
@@ -335,16 +324,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/web.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/Debug.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/INC/Request.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -633,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_04/upload_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_04/JS/up_form_3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -649,8 +621,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_04/up_form_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state>
+          <caret selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_04/upload_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_04/up_form_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_TP/TP_04/upload_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
