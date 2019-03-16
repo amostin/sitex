@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaire mail</title>
+</head>
+<body>
+<form method="post" action="mail_4.php">
+    <div class="emailBox">
+        <label for="exp">Expéditeur: </label><br>
+        <input id="exp"  name="exp" type="email" size="64"  required autofocus
+               placeholder="user@students.ephec.be" pattern=".+@students.ephec.be"
+               title="Merci de fournir uniquement une adresse @students.ephec.be">
+    </div>
+    <div class="subjectBox">
+        <label for="subject">Subject: </label><br>
+        <input type="text" id="subject" name="subject" required
+               placeholder="le sujet de mon mail.">
+    </div>
+    <div class="messageBox">
+        <label for="message">Requête: </label><br>
+        <textarea id="message" name="message" cols="80" rows="8" required
+                  placeholder="Le message de mon mail."></textarea>
+    </div>
+    <input type="submit" value="Envoyer le mail">
+</form>
+</body>
+</html>
