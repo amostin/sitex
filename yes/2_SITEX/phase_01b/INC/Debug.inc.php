@@ -32,7 +32,7 @@ class Debug
     {
         $this->debug = $debug;
         if($debug) return "true";
-        else ($debug) return "false";
+        else return "false";
     }
 
 
