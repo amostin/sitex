@@ -25,20 +25,16 @@ class Debug
     }
 
     /**
-     * the !! trick was found at https://www.jstips.co/en/javascript/converting-truthy-falsy-values-to-boolean/
+     *
      * @param bool $debug
      */
     public function setDebug($debug = true)
     {
-        //$this->debug = "!!".$debug;
-
-        if($debug == "truthy"){
-            return "true";
-        } else if($debug == "falsy"){
-            return "false";
-        }
         $this->debug = $debug;
+        if($debug) return "true";
+        else ($debug) return "false";
     }
+
 
     public function clear(){
         $this->msgList = [];
