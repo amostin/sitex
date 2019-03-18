@@ -3,7 +3,7 @@
    Author's custom styles
    ========================================================================== */
 
-
+/*
 .ico{
     background-size: 2em;
     height: 2em;
@@ -14,7 +14,7 @@
     margin-right: 0.25em;
     box-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.75);
 }
-
+*/
 div#error{
     border: double;
     background-color: rgba(100, 75, 50, 0.25);
@@ -28,6 +28,18 @@ div#error dt{
     padding: 0.25em;
 }
 
+.title::before{
+    content: ' ';
+    background-size: 2em;
+    height: 2em;
+    width: 2em;
+    background-image: url("../IMG/template.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .25em;
+    box-shadow: .1em .1em .2em rgba(255,255,255, .75);
+}
 
 
 

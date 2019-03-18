@@ -62,7 +62,7 @@ function makeRequest(event){
     //event.stopImmediatePropagation();
     //console.log(event.type, event.target);
     var request = event.target.href;
-    request = request.substring(51, request.lastIndexOf('.'));
+    request = event.target.getAttribute('href').split('.')[0];
     console.log(request);
     //testGet(request);
     var data2send = {'request':request};

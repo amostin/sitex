@@ -30,11 +30,12 @@ class Debug
      */
     public function setDebug($debug = true)
     {
-        $this->debug = $debug;
-        if($debug) return "true";
-        else return "false";
+        if ($debug === 0 || $debug == [] || $debug == "" || $debug ==null) {
+            return false;
+        } else if ($debug !=0 || $debug == "0" || $debug != "" || $debug != []) {
+            return true;
+        }
     }
-
 
     public function clear(){
         $this->msgList = [];

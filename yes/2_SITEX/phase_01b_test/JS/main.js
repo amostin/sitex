@@ -67,7 +67,7 @@ function makeRequest(event){
     //testGet(request);
     var data2send = {'request':request};
     //console.log(data2send);
-    $.post('/RES/testAjax.php?rq=' + request,data2send, function(data){playActions(data)});
+    $.post('/he201546/2_SITEX/phase_01b_test/index.php?rq=' + request,data2send, function(data){playActions(data)});
     $("#error > div").html(" ");
 
 }

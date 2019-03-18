@@ -83,9 +83,11 @@ $source = array("/All/mo/modernizr.min.js", "/All/jQ/jquery.min.js", "JS/main.js
         <div class="header-container">
 
             <header class="wrapper clearfix">
+                <!--
                 <div class="ico">
                     <img  src="IMG/template.jpg" alt="logo" />
                 </div>
+                -->
                 <h1 class="title"><?=$param['titleText'] ?></h1>
                 <nav id="menu">
                     <?=$param['navContent'] ?>
