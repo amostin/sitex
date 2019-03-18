@@ -68,11 +68,13 @@ class Request
         $phpError = error_get_last();
 //var_dump($phpError);
 
-        if($phpError){
+        if(!(is_null($phpError))){
 //echo "phperror existe";
             $this->iAction->add("phpError", $phpError);
         }
 //echo "pas phperror";
+        $this->iDebug->addMsg("Ajout de l'action : debug");
+        $this->iAction->add("debug", $this->iDebug->send());
 
         return $this->iAction->send();
     }

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d3dbef-cbfd-4fda-a3b6-3dd4e9f717c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Action.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Action.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01b_test/JS/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b_test/JS/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01b_test/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b_test/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/JS/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="1032">
               <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
             </state>
           </provider>
@@ -48,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+            <state relative-caret-position="476">
+              <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -60,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Action.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+            <state relative-caret-position="391">
+              <caret line="31" column="66" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -187,9 +184,9 @@
         <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/CSS/custom.css" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/template.inc.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/index.php" />
-        <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php" />
-        <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Action.inc.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/JS/main.js" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Action.inc.php" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php" />
       </list>
     </option>
   </component>
@@ -336,12 +333,12 @@
       <workItem from="1552729733319" duration="21904000" />
       <workItem from="1552891174279" duration="1817000" />
       <workItem from="1552912068444" duration="1311000" />
-      <workItem from="1552924436949" duration="17708000" />
+      <workItem from="1552924436949" duration="20232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227321000" />
+    <option name="totallyTimeSpent" value="229845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -658,10 +655,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php">
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/template.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+        <state relative-caret-position="-175">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/JS/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -674,22 +678,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Action.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        <state relative-caret-position="391">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/template.inc.php">
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b_test/JS/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        <state relative-caret-position="476">
+          <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
         </state>
       </provider>
     </entry>

@@ -37,7 +37,7 @@ class Action
         //if (method_exists($this->iDebug, 'debug')){
         if (true){
 
-                array_push($this->list, ["debug" => $this->iDebug->send()]);
+                //array_push($this->list, ["debug" => $this->iDebug->send()]);
         };
 //var_dump($this->list);
 //echo "juste avant json encode";
