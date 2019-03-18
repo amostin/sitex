@@ -47,8 +47,10 @@ class Request
     }
 
     private function home(){
-        $this->iAction->add("testAffiche", "<h1>Test de la chaine complête</h1><strong>Cela fonctionne !</strong>");
+        //$this->iAction->add("testAffiche", "<h1>Test de la chaine complête</h1><strong>Cela fonctionne !</strong>");
         $this->iDebug->addMsg("Je suis dans " . __FUNCTION__);
+        $this->iAction->add("testAffiche", "<h1>Test de la chaine complête</h1><strong>Cela fonctionne !</strong>");
+
     }
 
     private function isValid($rq){
@@ -67,9 +69,11 @@ class Request
 //var_dump($phpError);
 
         if($phpError){
-//echo "yo";
+//echo "phperror existe";
             $this->iAction->add("phpError", $phpError);
         }
+//echo "pas phperror";
+
         return $this->iAction->send();
     }
 

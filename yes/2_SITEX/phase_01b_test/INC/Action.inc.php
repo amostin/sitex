@@ -34,10 +34,13 @@ class Action
 
     public function send(){
 //echo "yooooooooooooooooooooooooooooooo";
-        if (method_exists($this->iDebug, 'debug')){
-            array_push($this->list, ["debug" => $this->iDebug->send()]);
+        //if (method_exists($this->iDebug, 'debug')){
+        if (true){
+
+                array_push($this->list, ["debug" => $this->iDebug->send()]);
         };
 //var_dump($this->list);
+//echo "juste avant json encode";
         echo json_encode($this->list);
         return json_encode($this->list);
     }

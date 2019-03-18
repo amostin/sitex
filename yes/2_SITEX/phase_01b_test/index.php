@@ -20,17 +20,17 @@ testClass("Debug");
 
 
 
-$uneRequete = new Request();
+$iRequete = new Request();
 
-if(!($uneRequete->getRq() == null)){
-    //echo $uneRequete->getRq();
-    $uneRequete->send();
+if(!($iRequete->getRq() == null)){
+    //echo $iRequete->getRq();
+    $iRequete->send();
     die();
 }
 else {
-    //var_dump($uneRequete);
-    unset($uneRequete);
-    //var_dump($uneRequete);
+    //var_dump($iRequete);
+    unset($iRequete);
+    //var_dump($iRequete);
 }
 
 

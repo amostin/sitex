@@ -68,7 +68,7 @@ function makeRequest(event){
     var data2send = {'request':request};
     //console.log(data2send);
     $.post('/he201546/2_SITEX/phase_01b_test/index.php?rq=' + request,data2send, function(data){playActions(data)});
-    $("#error > div").html(" ");
+    $("#error").children().html(" ");
 
 }
 
@@ -88,10 +88,10 @@ function playActions(retour) {
                 case 'testLogOff':
                     $("header nav ul li:last").html(actionDatas);
                     break;
-                case 'debug ':
-                    $("#debug").html(actionDatas);
+                case 'debug':
+                    $("#debug").html();
                 case 'phpError':
-                    $("#phpError").html(actionDatas);
+                    $("#phpError").html();
                 case 'jsonError_':
                     $("#error").show();
                     /*
@@ -101,20 +101,15 @@ function playActions(retour) {
                     var textError = '<dl> <dt>'+keys[1]+'</dt> <dd>'+secondValue+'</dd> <dt>'+keys[0]+'</dt> <dd>'+firstValue+'</dd> </dl>';
                     //keys[1] + ' :<br>' + secondValue +  '<br>' + keys[0] + ' :<br>' + firstValue;
                     $("#jsonError_").html(textError);
-                    var uneRequete = new Request();
-                    actionDatas = uneRequete->send();
-
-                    $("#jsonError_").html(textError);
-                    var test = "<?php echo $uneRequete?>";
-console.log(test);
-                    */
+                    console.log(keys, firstValue, secondValue);
                     var keys = Object.keys(actionDatas[0]);
                     var firstValue = actionDatas[0][keys[0]];
-                    var secondValue =  actionDatas[0][keys[1]];
-                    var textError = '<dl> <dt>'+keys[1]+'</dt> <dd>'+secondValue+'</dd> <dt>'+keys[0]+'</dt> <dd>'+firstValue+'</dd> </dl>';
-                    //keys[1] + ' :<br>' + secondValue +  '<br>' + keys[0] + ' :<br>' + firstValue;
-                    $("#jsonError_").html(textError);
-                    console.log(keys, firstValue, secondValue);
+                    //var afficheActionDatas =
+                    $("#jsonError_").html(firstValue);
+                    */
+//$("#jsonError_").html("jecris ce que je veux ici");
+                    var afficheActionDatas =   "<fieldset> <legend>"+actionName+"</legend>"+ actionDatas +" </fieldset>";
+                    $("#jsonError_").html(afficheActionDatas);
                     break;
                 case 'testSousMenu':
                     $("aside").html(actionDatas);
