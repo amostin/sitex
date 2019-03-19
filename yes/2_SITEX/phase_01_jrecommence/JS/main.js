@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 
     $("#error").dblclick(function(){
-        $(this).hide(500);
+        $(this).attr("hidden", 500);
     })
 
 });
@@ -61,13 +61,14 @@ function makeRequest(event){
     event.preventDefault();
     //event.stopImmediatePropagation();
     //console.log(event.type, event.target);
-    var request = event.target.getAttribute('href').split('.')[0];
-    //request = request.substring(51, request.lastIndexOf('.'));
+    var request = event.target.href;
+    request = event.target.getAttribute('href').split('.')[0];
     console.log(request);
     //testGet(request);
     var data2send = {'request':request};
     //console.log(data2send);
-    $.post('/he201546/2_SITEX/phase_01b_test/index.php?rq=' + request,data2send, function(data){playActions(data)});
+    $.post('/RES/appelAjax.php?rq=' + request,data2send, function(data){playActions(data)});
+    $("#error").html(" ");
 
 }
 
@@ -87,63 +88,15 @@ function playActions(retour) {
                 case 'testLogOff':
                     $("header nav ul li:last").html(actionDatas);
                     break;
-                case 'debug':
-                    if(actionName == 'debug'){
-                        var temp = 'debug';
-                    }
-
-                case 'phpError':
-                    if(actionName == 'phpError'){
-                        var temp = 'phpError';
-                    }
-
-
-                    /*
+                case 'jsonError_':
+                    $("#error").removeAttr("hidden");
                     var keys = Object.keys(actionDatas[0]);
                     var firstValue = actionDatas[0][keys[0]];
                     var secondValue =  actionDatas[0][keys[1]];
                     var textError = '<dl> <dt>'+keys[1]+'</dt> <dd>'+secondValue+'</dd> <dt>'+keys[0]+'</dt> <dd>'+firstValue+'</dd> </dl>';
                     //keys[1] + ' :<br>' + secondValue +  '<br>' + keys[0] + ' :<br>' + firstValue;
-                    $("#jsonError_").html(textError);
+                    $("#error").html(textError);
                     console.log(keys, firstValue, secondValue);
-                    var keys = Object.keys(actionDatas[0]);
-                    var firstValue = actionDatas[0][keys[0]];
-                    //var afficheActionDatas =
-                    $("#jsonError_").html(firstValue);
-
-
-
-                    var afficheActionDatas =   "<fieldset> <legend>"+actionName+"</legend>"+ actionDatas +" </fieldset>";
-                    $("#jsonError_").html(afficheActionDatas);
-                    */
-//$("#jsonError_").html("jecris ce que je veux ici");
-
-                case 'jsonError_':
-                    $("#error").show();
-                    if(actionName == 'jsonError_'){
-                        var temp = 'jsonError_';
-                    }
-                    $("#error").removeAttr('hidden');
-                    let selector = '#error #'+temp;
-                    $(selector).html(function () {
-                        if(actionName == temp) {
-                            //if (Array.isArray(actionDatas)) {
-                            if (actionDatas.length > 1) {
-                                var textError = "";
-                                for (let i = 0; i < actionDatas.length; i++) {
-                                    textError += '<dl> <dt>' + i + '</dt> <dd>' + actionDatas[i] + '</dd> </dl>';
-                                }
-                            }
-                            else {
-                                var keys = Object.keys(actionDatas[0]);
-                                var firstValue = actionDatas[0][keys[0]];
-                                var secondValue = actionDatas[0][keys[1]];
-                                textError = '<dl> <dt>' + keys[1] + '</dt> <dd>' + secondValue + '</dd> <dt>' + keys[0] + '</dt> <dd>' + firstValue + '</dd> </dl>';
-                            }
-                            actionDatas = textError;
-                        }
-                        return "<fieldset><legend>"+actionName+"</legend>"+actionDatas+"</fieldset>"
-                    });
                     break;
                 case 'testSousMenu':
                     $("aside").html(actionDatas);
@@ -180,19 +133,4 @@ function parseJson(json){
         console.log(keys, firstValue, secondValue);
     });
     break;
-
-
-
-    if(actionName == 'jsonError'){
-                        temp = 'jsonError'
-                    }
-                    $("#error").removeAttr('hidden');
-                    selector = '#error #'+temp;
-                    $(selector).html(function () {
-                        if(actionName == 'jsonError'){
-                           //Ton code pour le dico avec à la fin, actionDatas = tonDico
-                        }
-                        return "<fieldset><legend>"+actionName+"</legend>"+actionDatas+"</fieldset>"
-                    });
-                    break;
 */

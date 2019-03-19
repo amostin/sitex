@@ -53,8 +53,7 @@ class Debug
 //echo "iiii";
 //echo var_dump($this->msgList);
 //echo $this->mPr($this->msgList);
-        //return $this->mPr($this->msgList);
-        return $this->msgList;
+        return $this->mPr($this->msgList);
     }
 
     public function debug(){
