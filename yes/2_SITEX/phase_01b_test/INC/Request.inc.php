@@ -64,7 +64,7 @@ class Request
 //echo "ooo";
 //var_dump($this->iDebug);
 //$this->iDebug->send();
-        //$jeNexistePas++;
+        $jeNexistePas++;
         $phpError = error_get_last();
 //var_dump($phpError);
 
