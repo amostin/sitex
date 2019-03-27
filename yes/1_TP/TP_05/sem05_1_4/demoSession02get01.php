@@ -7,7 +7,9 @@
  */
 
 include_once "menu.inc.php";
+
 session_start();
+$id = session_id("ambroise");
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,7 +31,7 @@ if(isset($_SESSION["startTime"])){
 echo "Favorite color is " . $_SESSION["favcolor"] . ".<br>";
 echo "Favorite animal is " . $_SESSION["favanimal"] . ".";
 $_SESSION["name"] = "ambroise";
-
+echo var_dump($id);
 ?>
 
 </body>

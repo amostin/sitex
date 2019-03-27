@@ -64,7 +64,7 @@ class Request
 //echo "ooo";
 //var_dump($this->iDebug);
 //$this->iDebug->send();
-        $jeNexistePas++;
+        //$jeNexistePas++;
         $phpError = error_get_last();
 //var_dump($phpError);
 
@@ -73,7 +73,7 @@ class Request
             $this->iAction->add("phpError", $phpError);
         }
 //echo "pas phperror";
-        $this->iDebug->addMsg("Ajout de l'action : debug");
+        //$this->iDebug->addMsg("Ajout de l'action : debug");
         $this->iAction->add("debug", $this->iDebug->send());
 
         return $this->iAction->send();
