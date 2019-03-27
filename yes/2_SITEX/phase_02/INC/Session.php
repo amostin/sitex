@@ -48,33 +48,33 @@ class Session
      */
     public function getStart()
     {
-        return $this->$_SESSION["start"];
+        return $_SESSION["start"];
     }
 
     public function getLogs()
     {
-        return $this->$_SESSION["logs"];
+        return $_SESSION["logs"];
     }
 
     public function getUser()
     {
-        return $this->$_SESSION["user"];
+        return $_SESSION["user"];
     }
 
     public function getSession()
     {
-        return $this->$_SESSION; //echo ?
+        return $_SESSION; //echo ?
     }
 
 
     public function addLog($texte)
     {
-        $this->$_SESSION["logs"] = $texte . "@" . $this->getTime(); //attention tableau ?
+         array_push($_SESSION["logs"], $texte . "@" . $this->getTime()); //attention tableau ?
     }
 
     public function clearLogs()
     {
-        $this->$_SESSION["logs"] = [];
+        $_SESSION["logs"] = [];
     }
 
     public function clearStart()

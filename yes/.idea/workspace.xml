@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d3dbef-cbfd-4fda-a3b6-3dd4e9f717c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_06/fileReader_0/fileReader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_06/loadAjax_0/dataURL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_06/loadAjax_0/loadAjax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_06/loadImage_0/loadImage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_06/paint_1/CSS/Paint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_06/paint_1/JS/Paint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_TP/TP_06/paint_1/Paint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_SITEX/phase_02/INC/Session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php" beforeDir="false" afterPath="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_01b_test/INC/Request.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_02/INC/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_02/INC/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_SITEX/phase_02/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/2_SITEX/phase_02/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -48,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Debug.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345" />
+            <state relative-caret-position="-447" />
           </provider>
         </entry>
       </file>
@@ -64,13 +56,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/template.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-658">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Request.inc.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -118,6 +119,8 @@
       <find>textError</find>
       <find>colorSelector</find>
       <find>id=&quot;colorSelector</find>
+      <find>tp</find>
+      <find>$this-&gt;$</find>
     </findStrings>
     <replaceStrings>
       <replace>monprint_r</replace>
@@ -126,6 +129,7 @@
       <replace>userfile</replace>
       <replace>msg</replace>
       <replace>$iRequete</replace>
+      <replace>$</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\2tiDevWeb\SITEX\yes\2_SITEX\phase_01b_test</dir>
@@ -185,9 +189,9 @@
         <option value="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get02.php" />
         <option value="$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession02get01.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_02/INC/Action.inc.php" />
+        <option value="$PROJECT_DIR$/2_SITEX/phase_02/INC/Request.inc.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_02/index.php" />
         <option value="$PROJECT_DIR$/2_SITEX/phase_02/INC/Session.php" />
-        <option value="$PROJECT_DIR$/2_SITEX/phase_02/INC/Request.inc.php" />
       </list>
     </option>
   </component>
@@ -213,24 +217,6 @@
             <path>
               <item name="yes" type="b2602c69:ProjectViewProjectNode" />
               <item name="yes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yes" type="462c0819:PsiDirectoryNode" />
-              <item name="1_TP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yes" type="462c0819:PsiDirectoryNode" />
-              <item name="1_TP" type="462c0819:PsiDirectoryNode" />
-              <item name="TP_05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yes" type="462c0819:PsiDirectoryNode" />
-              <item name="1_TP" type="462c0819:PsiDirectoryNode" />
-              <item name="TP_05" type="462c0819:PsiDirectoryNode" />
-              <item name="sem05_1_4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yes" type="b2602c69:ProjectViewProjectNode" />
@@ -337,12 +323,12 @@
       <workItem from="1552924436949" duration="20688000" />
       <workItem from="1552977351849" duration="30089000" />
       <workItem from="1553427695430" duration="1156000" />
-      <workItem from="1553498985092" duration="11147000" />
+      <workItem from="1553498985092" duration="12557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272693000" />
+    <option name="totallyTimeSpent" value="274103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -400,16 +386,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1_TP/TP_04/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_01b/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -612,11 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Debug.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1_TP/TP_02/sem02a.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -646,13 +617,6 @@
     <entry file="file://$PROJECT_DIR$/1_TP/TP_05/sem05_1_4/demoSession04destroy.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Action.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -660,17 +624,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Request.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/template.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-658">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Debug.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_SITEX/phase_02/INC/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>

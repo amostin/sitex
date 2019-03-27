@@ -59,7 +59,7 @@ $param = array(   "titleText"=> $infos['shortName']
     ,"footerSection"=> footerContent($infos)
     ,"navContent"=> "                    <ul>
                        <li><a href=\"home.php\">accueil</a></li>
-                        <li><a href=\"works.php\">tp</a></li>
+                        <li><a href=\"test.php\">test</a></li>
                         <li><a href=\"logOn.php\">connexion</a></li>
                     </ul>"
 
