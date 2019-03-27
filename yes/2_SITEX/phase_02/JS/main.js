@@ -34,8 +34,8 @@ $(document).ready(function(){
            }
     */
 
-    makeEvent("li:first");
-    makeEvent("a[href='works.php']");
+    makeEvent("header nav ul li:first");
+    makeEvent("header nav ul ");
     makeEvent("header nav ul li:last");
 
 
