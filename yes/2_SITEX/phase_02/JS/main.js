@@ -35,7 +35,7 @@ $(document).ready(function(){
     */
 
     makeEvent("header nav ul li:first");
-    makeEvent("header nav ul ");
+    makeEvent("#nav2");
     makeEvent("header nav ul li:last");
 
 
@@ -67,7 +67,7 @@ function makeRequest(event){
     //testGet(request);
     var data2send = {'request':request};
     //console.log(data2send);
-    $.post('/he201546/2_SITEX/phase_01b_test/index.php?rq=' + request,data2send, function(data){playActions(data)});
+    $.post(window.location.pathname + '?rq=' + request,data2send, function(data){playActions(data)});
 
 }
 

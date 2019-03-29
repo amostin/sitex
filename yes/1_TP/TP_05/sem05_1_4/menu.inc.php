@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="demoSession.css">
     </head>
     <body>
+    <!-- <?php echo print_r($url = pathinfo($_SERVER['URL']), true) ;?> -->
+     <?php echo $_SERVER['ORIG_PATH_INFO'] ?>
         <nav id="menu">MENU
             <li><a href="demoSession01start.php">start</a></li>
             <li><a href="demoSession02get01.php">get</a></li>

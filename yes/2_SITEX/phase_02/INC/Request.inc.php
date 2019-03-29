@@ -55,6 +55,8 @@ class Request
 
     private function test(){
         $this->iDebug->addMsg("Je suis dans " . __FUNCTION__);
+        $this->iAction->add("testSousMenu", "<h1>Test du sous menu</h1><strong>God Damn !</strong>");
+
     }
 
     private function home(){
@@ -84,8 +86,8 @@ class Request
             $this->iAction->add("phpError", $phpError);
         }
 //echo "pas phperror";
-        //$this->iDebug->addMsg("Ajout de l'action : debug");
         $this->iAction->add("debug", $this->iDebug->send());
+
 
         return $this->iAction->send();
     }
